@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(20, 20, 20);
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding-top: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.title{
+    color: tomato;
+    text-align: center;
+}
+
+.navigation {
+    border-bottom: 1px solid;
+    padding-bottom: 1rem;
+    font-size: 18px;
+    text-align: center;
+}
+
+.navigation a{
+    padding: 0 15px;
+}
+
+.searchBox {
+    height: 28px;
+    width: 150px;
+    padding: 0 15px;
+    margin: 0 -5px 0 -5px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    outline: none;
+    font-size: 20px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    transition: ease-in-out .2s;
+}
+
+.searchBox:hover {
+    background-color: rgb(41, 41, 41);
+}
+
+.searchBox:focus {
+    border: 2px solid tomato;
+    background-color: rgb(41, 41, 41);
+    
+}
+
+.deleteButton {
+    height: 32px;
+    width: 160px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+
+.deleteButton:hover {
+    background-color: rgb(167, 167, 167);
+}
