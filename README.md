@@ -1,5 +1,3 @@
-<h2>React Router Website</h2>
+#React-Router-Tutorial
 
-<b>Started:</b> 12/09/2021
-<br>
-<b>Finished:</b> 12/09/2021
+<p>This app was just made to learn the React Router from the React Router documentation they have on their website. I also did some of my own styling to make it look cleaner in CSS.</p>
